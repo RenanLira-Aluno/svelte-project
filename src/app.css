@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+@layer base {
+  .padding-container {
+    @apply px-4 xl:px-[calc(calc(100vw-1280px)/2)];
+  }
+}
