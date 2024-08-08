@@ -11,13 +11,7 @@
       bind:checked={open}
     />
     <div class={`icon ${open ? "openned" : " "}`}>
-      <svg
-        width="max-content"
-        height="max-content"
-        viewBox="0 0 42 42"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
         <line
           x1="0"
           x2="42"
@@ -49,13 +43,13 @@
   <nav class={`dropdown-menu ${open ? "dropdown-menu-openned" : ""}`}>
     <ul class="flex flex-col items-center h-full justify-around text-white">
       <li>
-        <a href="#" class="text-lg">Home</a>
+        <a href="/" class="text-lg">Home</a>
       </li>
       <li>
-        <a href="#" class="text-lg">About</a>
+        <a href="/" class="text-lg">About</a>
       </li>
       <li>
-        <a href="#" class="text-lg">Contact</a>
+        <a href="/" class="text-lg">Contact</a>
       </li>
     </ul>
   </nav>

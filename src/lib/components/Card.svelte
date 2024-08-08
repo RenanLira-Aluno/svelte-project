@@ -8,8 +8,8 @@
   <p>{description}</p>
 </div>
 
-<style>
+<style lang="postcss">
   .card {
-    @apply bg-burgundy h-auto aspect-square p-4 rounded-md  ;
+    @apply bg-burgundy h-auto aspect-square p-4 rounded-md;
   }
 </style>
